@@ -1,0 +1,6 @@
+name: CraftKit
+version: '1.0'
+main: nl.multitime.craftKit.CraftKit
+api-version: '1.21'
+authors: [ MysticPhoenix_ ]
+description: Twerion.net RR system

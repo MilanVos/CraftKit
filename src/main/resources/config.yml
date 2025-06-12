@@ -1,0 +1,24 @@
+# CraftKit Configuration
+
+# Database settings (set to false to use JSON file storage)
+database:
+  enabled: false
+  host: "localhost"
+  port: 3306
+  database: "craftkit"
+  username: "root"
+  password: "password"
+
+# Kit settings
+kits:
+  respawn-kit-selection: true
+  clear-inventory-on-kit: true
+
+# Messages
+messages:
+  kit-selected: "§a§lKit Selected! §7You have received the {kit} kit!"
+  no-permission: "§cYou don't have permission to use this command!"
+  player-not-found: "§cPlayer '{player}' has never played on this server!"
+  stats-error: "§cError retrieving stats for {player}!"
+  kill-message: "§a§l+1 Kill! §7You killed {victim}"
+  death-message: "§c§lYou died! §7Use /kit to select a new kit when you respawn."
