@@ -1,6 +1,26 @@
 name: CraftKit
-version: '1.0'
+version: 1.0.0
 main: nl.multitime.craftKit.CraftKit
-api-version: '1.21'
-authors: [ MysticPhoenix_ ]
-description: Twerion.net RR system
+api-version: '1.16'
+authors: [MysticPhoenix]
+description: KitPvP plugin for Craftville
+
+permissions:
+  craftkit.kit:
+    description: Allows access to kit menu
+    default: true
+  craftkit.stats:
+    description: Allows viewing stats
+    default: true
+  craftkit.stats.others:
+    description: Allows viewing other players' stats
+    default: op
+
+commands:
+  kit:
+    description: Opens the kit selection menu
+    permission: craftkit.kit
+  kitstats:
+    description: Shows player statistics
+    usage: /stats [player]
+    permission: craftkit.stats
